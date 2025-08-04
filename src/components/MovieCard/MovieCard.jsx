@@ -1,6 +1,5 @@
 import './MovieCard.scss';
 
-
 export const MovieCard = ({ movie }) => (
   <>
     <div className="card-image">
@@ -13,7 +12,7 @@ export const MovieCard = ({ movie }) => (
       <div className="media">
         <div className="media-left">
           <figure className="image is-48x48">
-            <img src={movie.imdbUrl} alt="imdb" />
+            <img src={movie.imgUrl} alt="imdb" />
           </figure>
         </div>
       </div>
